@@ -13,6 +13,13 @@ A simple Snake Game built in Java using Swing.
 - **How to run:**  
   ```bash
   java -jar SnakeGame.jar
-Controls: Arrow keys or WASD
-Objective: Eat food to grow longer and avoid crashing into yourself.
-Requirements: Java 17 or newer
+
+- **Controls:**  
+    ```bash
+  Arrow keys or WASD
+- **Objective:**  
+    ```bash
+  Eat food to grow longer and avoid crashing into yourself.
+- **Requirements:**  
+    ```bash
+  Java 17 or newer
