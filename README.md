@@ -12,6 +12,8 @@ A simple Snake Game built in Java using Swing.
 
 - **How to run:**  
   ```bash
+  Download  the Snake Game Folder
+  On the terminal run:
   java -jar SnakeGame.jar
 
 - **Controls:**  
