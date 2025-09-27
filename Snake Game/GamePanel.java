@@ -13,7 +13,7 @@ public class GamePanel extends JPanel implements ActionListener {
     static final int SCREEN_HEIGHT = 900;
     static final int UNIT_SIZE = 25; // size of each unit in the game
     static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/UNIT_SIZE;
-    static final int DELAY = 75; // speed of the game
+    static final int DELAY = 100; // speed of the game
 
     final int x[] = new int[GAME_UNITS]; // x coordinates of snake body parts
     final int y[] = new int[GAME_UNITS]; // y coordinates of snake body parts
@@ -201,6 +201,8 @@ public class GamePanel extends JPanel implements ActionListener {
         repaint();
         
     }
+
+    
 
     public class MyKeyAdapter extends KeyAdapter{
         @Override
